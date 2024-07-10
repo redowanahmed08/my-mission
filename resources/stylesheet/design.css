@@ -130,3 +130,94 @@ button > a {
     margin-bottom: 10px;
     font-size: 14px;
 }
+
+/* why web development section */
+
+.wwd-section{
+    width: 946px;
+    height: 1033px;
+    margin: 0 auto;
+    padding: 80px 70px 80px 70px;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+  }
+  
+  
+  .box-heading {
+      font-size: 20px;
+      margin-bottom: 16px;
+      line-height: 16px;
+      
+  }
+  
+  .box-descrip {
+      font-weight: 300;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      line-height: 12px;
+      font-family: 12px;
+  }
+  
+  .box-child1{
+      margin-top: 40px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      border-radius: 16px;
+      background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  }
+  
+  .box-child2, div > a, .box-heading, .box-descrip {
+      margin-left: 22px;
+  }
+  
+  ul > li >button {
+      padding: 12px 20px 12px 20px;
+      box-sizing: border-box;
+      border: 1px solid rgb(13, 19, 33);
+      opacity: 0.7;     
+      color: black;   
+  }
+  
+  div > a {
+      box-sizing: border-box;
+      border: 1px solid rgb(13, 19, 33);
+      opacity: 0.7;
+      padding: 12px 20px 12px 20px;
+      text-decoration: none;
+      color: rgb(13, 19, 33);
+  }
+  
+  .box-child2{
+      margin-top: 40px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      border-radius: 16px;
+      background: linear-gradient(270deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  }
+  .box-child3{
+      margin-top: 40px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      border-radius: 16px;
+      background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  }
+  
