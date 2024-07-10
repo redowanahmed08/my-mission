@@ -261,6 +261,11 @@ button > a {
     border: 1px solid rgba(13, 19, 33, 0.358);
 }
 
+iframe {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
 /* my current target section */
 
 .target-box-header {
@@ -395,7 +400,6 @@ button > a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 60px;
 }
 
 .next-target-box-header {
@@ -406,7 +410,7 @@ button > a {
 .img-target {
     width: 950px;
     height: 125px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -427,4 +431,101 @@ button > a {
 
 .image-content-2 {
     padding-right: 10px;
+}
+
+
+.footer-bg-parent {
+    width: 1000px;
+    height: 325px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    background-image: url(../images/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.footer-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.footer-descrip {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.input-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 550px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
+    outline: none;
+    border: none;
+}
+
+input[type="button"] {
+
+    width: 110px;
+    height: 50px;
+    display: flex;
+    font-family: "Azeret Mono", monospace;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin: 0px 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.copyright-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 150px 32px 150px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.copy-text {
+    color: #181818;
+}
+
+div > .footer-link {
+  border: none;
+
 }
