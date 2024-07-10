@@ -32,7 +32,7 @@
 }
 
 .section-descrip {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
     color: #757575;
     margin-bottom: 20px;
@@ -128,14 +128,15 @@ button > a {
 .banner-descrip {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 13px;
+    color: rgba(13, 19, 33, 0.7);
 }
 
 /* why web development section */
 
 .wwd-section{
     width: 946px;
-    height: 1033px;
+    height: 1150px;
     margin: 0 auto;
     padding: 80px 70px 80px 70px;
     margin-top: 80px;
@@ -147,7 +148,8 @@ button > a {
   .box-heading {
       font-size: 20px;
       margin-bottom: 16px;
-      line-height: 16px;
+      line-height: 30px;
+      color: rgba(13, 19, 33, 0.7);
       
   }
   
@@ -156,9 +158,18 @@ button > a {
       margin-top: 25px;
       margin-bottom: 25px;
       line-height: 12px;
-      font-family: 12px;
+      font-size: 15px;
+      color: rgba(13, 19, 33, 0.7);
   }
   
+.text-content{
+    padding-right: 200px;
+}
+
+.image-content{
+    padding-right: 200px;
+}
+
   .box-child1{
       margin-top: 40px;
       margin-bottom: 50px;
@@ -166,6 +177,7 @@ button > a {
       justify-content: center;
       align-items: center;
       flex: none;
+      padding: 25px;
       order: 0;
       align-self: stretch;
       flex-grow: 0;
@@ -177,19 +189,20 @@ button > a {
       margin-left: 22px;
   }
   
-  ul > li >button {
+  ul > li > a > button {
       padding: 12px 20px 12px 20px;
       box-sizing: border-box;
-      border: 1px solid rgb(13, 19, 33);
+      border: 10px solid rgb(13, 19, 33);
       opacity: 0.7;     
-      color: black;   
+      color: black;
+      background: transparent;
   }
   
   div > a {
       box-sizing: border-box;
       border: 1px solid rgb(13, 19, 33);
       opacity: 0.7;
-      padding: 12px 20px 12px 20px;
+      padding: 10px 17px 10px 17px;
       text-decoration: none;
       color: rgb(13, 19, 33);
   }
@@ -201,6 +214,7 @@ button > a {
       justify-content: center;
       align-items: center;
       flex: none;
+      padding: 25px;
       order: 0;
       align-self: stretch;
       flex-grow: 0;
@@ -213,6 +227,7 @@ button > a {
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 25px;
       flex: none;
       order: 0;
       align-self: stretch;
@@ -221,3 +236,21 @@ button > a {
       background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
   }
   
+  /* my inspirition setion */
+
+  .box-content2 {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+.iframe-parent {
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 16px;
+    margin-top: 40px;
+    border-radius: 16px;
+    background: transparent;
+    border: 1px solid rgba(13, 19, 33, 0.358);
+}
