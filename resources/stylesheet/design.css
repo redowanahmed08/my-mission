@@ -1,6 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
 *{
-margin: 0;
+    margin: 0;
+    padding: 0;
+}
 
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
+/* shared styles */
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.bg-primary {
+    color: #757575
+}
+
+.section-descrip {
+    font-size: 15px;
+    font-weight: 300;
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* nav styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+/* button styles */
+
+.btn-primary {
+    padding: 14px 24px 14px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: white;
+    font-family: "Azeret Mono", monospace;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-2 {
+    padding: 14px 24px 14px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    font-family: "Azeret Mono", monospace;
+    cursor: pointer;
+    
+}
+
+button > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* header-img */
+
+.hero-section {
+    background-repeat: no-repeat;
+    background-image: url(../images/Group.png) , url(../images/Hero-bg.png);
+    background-position: top center, center;
+    background-size: 220px, cover;
+    position: relative;
+    height: 630px;
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.banner-title {
+    font-size: 32px;
+}
+
+.banner-content {
+    max-width: 600px;
+    margin-top: 270px;
+}
+
+.banner-descrip {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
