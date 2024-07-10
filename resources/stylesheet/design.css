@@ -207,6 +207,7 @@ button > a {
     text-decoration: underline;
     padding: 0;
     color: #555963;
+    display: flex;
  }
 
   .box-child2 {
@@ -277,8 +278,8 @@ iframe {
 
 .target-box > .target-box-content-1 {
     position: static;
-    width: 220px;
-    height: 200px;
+    width: 230px;
+    height: 250px;
     padding: 40px;
     margin: 0px 24px;
     border-radius: 16px;
@@ -286,8 +287,8 @@ iframe {
 }
 .target-box > .target-box-content-2 {
     position: static;
-    width: 220px;
-    height: 210px;
+    width: 230px;
+    height: 250px;
     padding: 40px;
     margin: 0px 24px;
     border-radius: 16px;
@@ -295,8 +296,8 @@ iframe {
 }
 .target-box > .target-box-content-3 {
     position: static;
-    width: 220px;
-    height: 210px;
+    width: 230px;
+    height: 250px;
     padding: 40px;
     margin: 0px 24px;
     border-radius: 16px;
@@ -426,6 +427,7 @@ iframe {
     padding-right: 10px;
 }
 
+/* footer section */
 
 .footer-bg-parent {
     width: 1000px;
@@ -519,8 +521,16 @@ input[type="button"] {
     font-size: 18px;
 }
 
-.footer-img {
-  border: none;
+/* custom scrollbar section */
+::-webkit-scrollbar {
+    width: 7px; 
+}
 
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
 
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
 }
