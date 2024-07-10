@@ -157,7 +157,7 @@ button > a {
       font-weight: 300;
       margin-top: 25px;
       margin-bottom: 25px;
-      line-height: 12px;
+      line-height: 22px;
       font-size: 15px;
       color: rgba(13, 19, 33, 0.7);
   }
@@ -193,7 +193,7 @@ button > a {
       background: transparent;
   }
   
-  div > a {
+  .lrn {
       box-sizing: border-box;
       border: 1px solid rgb(13, 19, 33);
       opacity: 0.7;
@@ -202,10 +202,11 @@ button > a {
       color: rgb(13, 19, 33);
   }
   
- div > #learn {
+ .learn {
     border: none;
     text-decoration: underline;
     padding: 0;
+    color: #555963;
  }
 
   .box-child2 {
@@ -313,6 +314,7 @@ iframe {
 .target-box-descrip {
     font-size: 14px;
     font-weight: 400;
+    line-height: 18px;
 }
 
 .target-box-parent {
@@ -333,9 +335,6 @@ iframe {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 40px;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
     margin: 0px 24px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -350,10 +349,7 @@ iframe {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 40px;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
+    padding: 45px;
     margin: 0px 24px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -370,9 +366,6 @@ iframe {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 40px;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
     margin: 0px 24px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -512,20 +505,22 @@ input[type="button"] {
     cursor: pointer;
 }
 
-.copyright-content {
+.footer-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 32px 150px 32px 150px;
     background: rgba(13, 19, 33, 0.03);
 }
 
 .copy-text {
     color: #181818;
+    font-size: 18px;
 }
 
-div > .footer-link {
+.footer-img {
   border: none;
+
 
 }
